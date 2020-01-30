@@ -44,16 +44,9 @@ const actions = {
     } else {
       uri += '&type=' + params.type
     }
-
-    console.log('params:', params)
-    console.log('params.page:', params.page)
-    console.log('params.type:', params.type)
-    console.log('admin.standard uri: ', uri)
-
     return new Promise((resolve, reject) => {
       ApiService.get(uri)
         .then((result) => {
-          console.log('result.data : ', result.data)
           resolve(result.data)
         })
         .catch((result) => {
