@@ -112,7 +112,7 @@ MIDDLEWARE = [
 
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
-    'PAGE_SIZE': 10,
+    'PAGE_SIZE':20,
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTTokenUserAuthentication',
     )
@@ -208,5 +208,5 @@ MEDIA_URL = '/media/'  # 항상 / 로 끝나도록 설정
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
-WF_HOST_DOMAIN = 'http://127.0.0.1:8000'
+WF_HOST_DOMAIN = 'http://localhost:8000'
 # WF_HOST_DOMAIN = 'https://v2.washwapos.com'
