@@ -57,7 +57,7 @@
             :headers="headers"
             :items="items"
             :pagination.sync="pagination"
-            :rows-per-page-items="[10,{'text':'All','value':-1}]"
+            :rows-per-page-items="[20,{'text':'All','value':-1}]"
             :total-items="totalitems"
             :loading="loading"
             no-data-text="등록된 데이터가 없습니다"

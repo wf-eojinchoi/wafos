@@ -120,8 +120,6 @@ class StandardCourseList(
         if descending:
             order_by = '-' + sortby
 
-        print('type_ :{} , sortby :{} , descending :{}',type_, order_by, descending)
-
         return queryset
 
     def get(self, request, *args, **kwargs):

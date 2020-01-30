@@ -43,7 +43,6 @@ class AgencyList(
         if descending:
             order_by = '-' + sortby
 
-        print('order_by :{} , descending :{}',order_by, descending)
         return queryset.order_by(order_by) if order_by is not None else queryset.order_by('agency_name')
 
     def get(self, request, *args, **kwargs):
