@@ -7,7 +7,7 @@ const ApiService = {
   init () {
     Vue.use(VueCookie)
     Vue.use(VueAxios, axios)
-    Vue.axios.defaults.baseURL = 'http://127.0.0.1:8000'
+    Vue.axios.defaults.baseURL = 'http://localhost:8000'
     // Vue.axios.defaults.baseURL = 'https://v2.washwapos.com'
   },
 
