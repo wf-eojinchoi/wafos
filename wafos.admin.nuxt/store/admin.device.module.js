@@ -24,13 +24,30 @@ const mutations = {
 
 const actions = {
   // Device Info
-  DeviceList (context) {
+  DeviceList (context, params) {
+    let uri = API_PATH.DEVICE_LIST
+    if (params.page) {
+      uri += '?page=' + params.page
+    } else {
+      uri += '?page=1'
+    }
+
+    if (params.sortby) {
+      uri += '?sortby=' + params.sortby
+    }
+
+    if (params.descending) {
+      uri += '?descending=' + params.descending
+    }
+
     return new Promise((resolve, reject) => {
-      ApiService.get(API_PATH.DEVICE_LIST)
+      ApiService.get(uri)
         .then((result) => {
+          console.log('result.data : ', result.data)
           resolve(result.data)
         })
         .catch((result) => {
+          console.log('catch : ', result)
           reject(result.response.data)
         })
     })
@@ -139,11 +156,24 @@ const actions = {
   ModelList (context, param) {
     let uri = API_PATH.MODEL_LIST
     if (param.brand) {
+      console.log('param.brand :', param.brand)
       uri += '?brand=' + param.brand
+    } else {
+      console.log('param.brand is null')
     }
+
+    if (param.page) {
+      console.log('page : ', param.page)
+      uri += '&page=' + param.page
+    } else {
+      console.log('page :null')
+      uri += '&page=1'
+    }
+
     return new Promise((resolve, reject) => {
       ApiService.get(uri)
         .then((result) => {
+          console.log('result.data : ', result.data)
           resolve(result.data)
         })
         .catch((result) => {

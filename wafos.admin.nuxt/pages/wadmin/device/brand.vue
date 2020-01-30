@@ -32,14 +32,11 @@
               :search="search"
               :headers="headers"
               :items="brandItems"
-              :pagination.sync="pagination"
-              :rows-per-page-items="[10,{'text':'All','value':-1}]"
-              :total-items="totalitems"
               :loading="loading"
               no-data-text="등록된 데이터가 없습니다"
               no-results-text="검색 결과가 없습니다"
-              hide-actions
-              light>
+              light
+              hide-actions>
 
               <template slot="items" slot-scope="props">
                 <tr style="cursor: pointer;" @click="onBrandModify(props.index, props.item)">
@@ -48,8 +45,6 @@
                     <v-icon class="red--text" @click.stop="onBranDeleteDialog(props.item)">delete_forever</v-icon>
                   </td>
                 </tr>
-              </template>
-              <template slot="footer">
               </template>
             </v-data-table>
           </v-card>
@@ -99,14 +94,12 @@
               :headers="modelHeaders"
               :items="modelItems"
               :pagination.sync="pagination"
-              :rows-per-page-items="[10,{'text':'All','value':-1}]"
+              :rows-per-page-items="[20,{'text':'All','value':-1}]"
               :total-items="totalitems"
               :loading="loading"
               no-data-text="등록된 데이터가 없습니다"
               no-results-text="검색 결과가 없습니다"
-              hide-actions
               light>
-
               <template slot="items" slot-scope="props">
                 <tr style="cursor: pointer;" @click="onModelModify(props.index, props.item)">
                   <td class="text-xs-center">{{ props.item.brand ? props.item.brand.name : '-' }}</td>
@@ -272,12 +265,17 @@ export default {
     },
     reloadModelDatas () {
       this.$store.dispatch('ModelList', {
-        brand: this.sort_by_brand
+        brand: this.sort_by_brand,
+        page : this.pagination.page//추가(2020.01.30)
       })
         .then((result) => {
+          console.log('brand.vue result.results')
           this.modelItems = result.results
+          this.totalitems = result.count//추가(2020.01.30)
+          console.log('result :', result)
         })
         .catch((result) => {
+          console.log('modellist catch : ', result)
           this.error = '데이터를 가져오는데 실패했습니다'
           this.loading = false
         })
@@ -395,8 +393,8 @@ export default {
     }
   },
   created () {
+    console.log('## brand.vue created ##')
     this.reloadBrandDatas()
-    this.reloadModelDatas()
   },
   mounted () {
     this.$store.dispatch('updateTitle', '장비 - 제조사 관리')
@@ -404,9 +402,10 @@ export default {
   watch: {
     pagination: {
       handler () {
-        // this.reloadDatas()
+        console.log('watch pagination called')
+        this.reloadModelDatas()
       },
-      deep: true
+    deep: true
     },
     search: {
       handler () {
