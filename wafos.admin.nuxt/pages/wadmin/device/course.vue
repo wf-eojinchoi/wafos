@@ -36,9 +36,12 @@
                 </v-card-title>
                 <v-flex xs12>
                   <v-data-table
-                    :items="courseItems"
                     :headers="headers"
-                    hide-actions
+                    :items="courseItems"
+                    :pagination.sync="pagination"
+                    :rows-per-page-items="[20,{'text':'All','value':-1}]"
+                    :total-items="totalitems"
+                    :loading="loading"
                     no-data-text="등록된 코스가 없습니다"
                     light>
                     <!-- <template v-slot:items="props"> -->
@@ -102,7 +105,7 @@
                     :headers="headers"
                     :items="courseItems"
                     :pagination.sync="pagination"
-                    :rows-per-page-items="[10,{'text':'All','value':-1}]"
+                    :rows-per-page-items="[20,{'text':'All','value':-1}]"
                     :total-items="totalitems"
                     :loading="loading"            
                     no-data-text="등록된 코스가 없습니다"
@@ -130,7 +133,7 @@
                         </td>
                       </tr>
                     </template>
-                    <template slot="footer">
+                        <template slot="footer">
                     </template> 
                   </v-data-table>
                 </v-flex>
@@ -168,9 +171,12 @@
                 </v-card-title>
                 <v-flex xs12>
                   <v-data-table
-                    :items="courseItems"
                     :headers="headers"
-                    hide-actions
+                    :items="courseItems"
+                    :pagination.sync="pagination"
+                    :rows-per-page-items="[20,{'text':'All','value':-1}]"
+                    :total-items="totalitems"
+                    :loading="loading"
                     no-data-text="등록된 코스가 없습니다"
                     light>
                     <!-- <template v-slot:items="props"> -->
@@ -231,9 +237,12 @@
                 </v-card-title>
                 <v-flex xs12>
                   <v-data-table
-                    :items="courseItems"
                     :headers="headers"
-                    hide-actions
+                    :items="courseItems"
+                    :pagination.sync="pagination"
+                    :rows-per-page-items="[20,{'text':'All','value':-1}]"
+                    :total-items="totalitems"
+                    :loading="loading"   
                     no-data-text="등록된 코스가 없습니다"
                     light>
                     <!-- <template v-slot:items="props"> -->
@@ -378,12 +387,10 @@ export default {
     // API
     reloadDatas (active) {
       this.loading = true
-      console.log('reloadDatas active:', active)
       console.log('reload->', active)
       if(active == null){
         console.log('active is null')
       }
-
       if (active != null) {
         this.courseItems = []
         if (active === 1){//active=1
@@ -394,24 +401,19 @@ export default {
           active = 6//멀티자판기
         }
 
-        console.log('active :', this.active,', type :', active)
-
         this.$store.dispatch('StandardCourseList', {
           page: this.pagination.page,//undefined
-          sortby: this.pagination.sortBy,
-          descending: this.pagination.descending,
+          sortby: this.pagination.sorBy,
+          descending: this.descending,
           type: active//
         })
           .then((result) => {
             this.loading = false
             this.courseItems = result.results
-            console.log('courseItems :', courseItems)//추가
             this.totalitems = result.count//추가
-            console.log('totalitems :', totalitems)//추가
-
-            console.log(result)//추가
           })
           .catch((result) => {
+            console.log('catch : ', result)
             this.error = '실패했습니다'
             this.loading = false
           })
@@ -422,6 +424,7 @@ export default {
       this.courseRegDialog.show = true
     },
     courseRegist (item) {
+      console.log('courseRegist called')
       var param = item
       param.type = this.active
       this.$store.dispatch('StandardCourseRegister', param)
@@ -444,6 +447,7 @@ export default {
         })
     },
     courseModify (item) {
+      console.log('courseModify called')
       var param = item
       param.type = this.active
       this.$store.dispatch('StandardCourseModify', param)
@@ -465,6 +469,7 @@ export default {
       this.model_delete_dialog.show = true
     },
     courseDelete (item) {
+      console.log('courseDelete called')
       this.$store.dispatch('StandardCourseDelete', item.id)
         .then((result) => {
           if (result) {
@@ -478,32 +483,23 @@ export default {
     }
   },
   created () {
-    console.log('## created ##')
-    this.active = 0
   },
-  mounted () {
-    this.$store.dispatch('updateTitle', '표준 코스 관리')
-    // this.reloadDatas()
-  },
-  watch: {
-    //tab바뀔때는 페이지번호1번
+  watch:{
     active: {
-      handler () {
-        console.log('watch active called')
-        console.log('watch active this.active :', this.active)
-        this.pagination.page = 1
-        this.reloadDatas(this.active)
-      },
-    deep:true
+        handler () {
+          this.pagination.page = 1
+          this.reloadDatas(this.active)
+        },
+      deep:true
     },
     pagination: {
       handler () {
-        console.log('watch pagination called')
-        console.log('watch pagination this.active :', this.active)
-        console.log('watch pagination.page :', this.pagination.page)
         this.reloadDatas(this.active)
       }
     }
+  },
+  mounted () {
+    this.$store.dispatch('updateTitle', '표준 코스 관리')
   },
   data () {
     return {
@@ -516,7 +512,7 @@ export default {
       snackbar: false,
       snackbar_color: 'info',
       snackbar_msg: null,
-      active: null,
+      active: 0,
       courseItems: [],
       headers: [
         {
