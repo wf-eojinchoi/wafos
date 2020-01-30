@@ -1,0 +1,271 @@
+{
+  "app": {
+    "money-unit": "đồng",
+    "point-unit": "Điểm",
+    "minute": "Phút",
+    "second": "Giây",
+    "have": "Có",
+    "guest": "Khách",
+    "close": "Đóng",
+    "confirm": "Kiểm tra",
+    "next": "Sau",
+    "prev": "Trước",
+    "back": "Quay lại",
+    "buy": "Thanh toán",
+    "use": "Sử dụng",
+    "dont-use": "Không sử dụng",
+    "point": "Điểm tích lũy",
+    "saved-money": "Tiền tích lũy",
+    "unit": "Cái",
+    "bounce": "Bounce",
+    "do-save": "Nạp tiền",
+    "usage": "Lịch sử sử dụng",
+    "washer": "Máy giặt",
+    "dryer": "Máy sấy",
+    "air-dresser": "Tủ chăm sóc quần áo thông minh",
+    "shoes-dryer": "Máy sấy giày thể thao",
+    "shoes-washer": "Máy giặt giày thể thaoo",
+    "air-conditioner": "Điều hòa",
+    "supplies": "Sản phẩm giặt",
+    "save": "Tích điểm",
+    "cash": "Thanh toán bằng tiền mặt",
+    "card": "Thanh toán bằng thẻ",
+    "use-cash": "Sử dụng điểm tích lũy",
+    "saved-point": "Tích điểm",
+    "history-service": "Dịch vụ",
+    "history-payment": "Thanh toán",
+    "history-save-cash": "Tích lũy tiền mặt",
+    "history-use-cash": "Sử dụng tiền mặt",
+    "history-save-point": "Điểm hiện có",
+    "history-use-point": "Sử dụng điểm tích lũy",
+    "history-balance-cash": "Số tiền còn lại",
+    "history-balance-point": "Số điểm còn lại",
+    "history-when": "ngày giờ"
+  },
+  "home": {
+    "header": "Tiệm giặt sấy hàng đầu khu vực",
+    "title1": "Xin chào",
+    "title2": "Chào mừng bạn đến với",
+    "title3": "tiệm giặt sấy 24h Wash Holdings ",
+    "title4": "nơi đem lại cảm giác ấm cúng trong cả ngày dài",
+    "btn1": "thành viên",
+    "btn2": "khách",
+    "btn3": "Đăng ký thành viên",
+    "btn4": "Xem ưu đãi thành viên",
+    "btn5": "Quay lại"
+  },
+  "init": {
+    "complete": "Đã cài đặt xong. Hãy ấn Ctrl+W để bắt đầu lại",
+    "noentry": "Thông tin thành viên không đúng"
+  },
+  "build": {
+    "error": "Đã xảy ra lỗi hệ thống, xin vui lòng thử lại sau 5 giây"
+  },
+  "menu": {
+    "washer": "Giặt",
+    "dryer": "Sấy",
+    "shoes-washer": "Giặt giày thể thao",
+    "shoes-dryer": "Sấy giày thể thao",
+    "airdresser": "Tủ chăm sóc quần áo thông minh",
+    "supplies": "Sản phẩm giặt",
+    "airconditioner": "Hệ thống điều hòa",
+    "home": "Đăng xuất",
+    "autologout":"Auto Logout"
+  },
+  "payment": {
+    "washer": "Giặt",
+    "dryer": "Sấy",
+    "shoes-washer": "Giặt giày thể thao",
+    "shoes-dryer": "Sấy giày thể thao",
+    "airdresser": "Tủ chăm sóc quần áo thông minh",
+    "styler": "Tủ chăm sóc quần áo thông minh",
+    "supplies": "Sản phẩm giặt",
+    "airconditioner": "Hệ thống điều hòa",
+    "desc1-1": "Tại máy giặt số %{number}",
+    "desc2-1": "Bắt đầu sáy đồ?",
+    "desc2-2": "Bạn có muốn bắt đầu khô?",
+    "desc2-3": "Bắt đầu sử dụng dịch vụ?",
+    "desc3": "Bạn có muốn sử dụng ..... không?",
+    "desc4": "Số điểm tích lũy là %{number}",
+    "desc5": "Hãy chọn số tiền thanh toán",
+    "way": "Hãy chọn cách thanh toán",
+    "card": "Thanh toán bằng thẻ",
+    "cash": "Thanh toán bằng tiền mặt",
+    "product-price": "Số tiền sản phẩm",
+    "use-price": "Số tiền đã dùng",
+    "use": "Sử dụng",
+    "payment-price": "Số tiền thanh toán",
+    "insert-money": "Số tiền cần nạp",
+    "total-saved-money": "Tổng số tiền tích lũy",
+    "limit-time": "Thời gian giới hạn",
+    "cant-save": "(Không thể tích điểm nếu không phải là thành viên)",
+    "close": "Cửa sổ này sẽ tự động đóng lại",
+    "failure": "Thanh toán không thành công",
+    "payment-result": "Bạn đã được tích điểm %{number} won",
+    "success": "Thanh toán thành công",
+    "card-warning": "Xin vui lòng không rút thẻ ra khi chưa có âm thanh báo giao dịch thành công",
+    "pending": "Không thể di chuyển trong khi đang thanh toán",
+    "cash-warning": "Hãy nhét tiền vào",
+    "alert-retry": "Đã xảy ra lỗi. Xin vui lòng thử lại sau ít phút",
+    "washser-success": "Đã thanh toán thành công. Hãy chọn chương trình và ấn nút khởi động tại máy giặt đã chọn.",
+    "dryer-success": "Đã thanh toán thành công. Hãy chọn chương trình và ấn nút khởi động tại máy sấy đã chọn.",
+    "shoes-washer-success":"Đã thanh toán thành công. Hãy chọn nút khởi động ở máy giặt giày.",
+    "shoes-dryer-success":"Đã thanh toán thành công. Hãy chọn nút khởi động ở máy sấy giày.",
+    "air-success":"Đã thanh toán thành công. Máy sẽ tự động hoạt động theo thời gian đã chọn.",
+    "styler-success":"Đã thanh toán thành công. Hãy chọn nút khởi động ở tử chăm sóc quần áo thông minh.",
+    "supply-success":"Đã thanh toán thành công. Hãy ấn nút sản phẩm bạn chọn và nhận đồ ở máy bán hàng đa năng.",
+    "cant-payment":"Xin vui long kiểm tra số dư tài khoản.",
+    "no-payment":"Số dư tài khoản không đủ."
+  },
+  "washer": {
+    "step1": {
+      "title": "Cho đồ giặt vào",
+      "desc": "Hãy cho đồ cần giặt vào máy"
+    },
+    "step2": {
+      "title": "Đóng cửa máy giặt",
+      "desc": "Hãy đóng cửa máy giặt"
+    },
+    "step3": {
+      "title": "Chọn máy giặt",
+      "select": "Số %{number}",
+      "desc1": "Hãy",
+      "desc2": "chọn số ",
+      "desc3": "máy giặt mong muốn"
+    },
+    "step4": {
+      "title": "Chọn chương trình",
+      "select": "Số %{number}",
+      "desc1": "Máy giặt đã chọn",
+      "desc2": "Hãy",
+      "desc3": "chọn chương trình giặt ",
+      "desc4": "mong muốn"
+    }
+  },
+  "supplies": {
+    "step1": {
+      "title": "Sản phẩm giặt",
+      "desc1": "Hãy",
+      "desc2": "chọn sản phẩm giặt",
+      "desc3": "mong muốn"
+    }
+  },
+  "airdresser": {
+    "step1": {
+      "title": "Chọn chương trình",
+      "desc1": "Hãy",
+      "desc2": "chọn chương trình tủ chăm sóc quần áo"
+    }
+  },
+  "shoes-washer": {
+    "step1": {
+      "title": "Cho giày thể thao vào",
+      "desc1": "Hãy cho giày thể thao vào máy"
+    },
+    "step2": {
+      "title": "Chọn máy giặt",
+      "select": "Số %{number}",
+      "desc1": "Hãy",
+      "desc2": "chọn số",
+      "desc3": "máy giặt mong muốn."
+    },
+    "step3": {
+      "title": "Chọn chương trình",
+      "desc1": "Hãy",
+      "desc2": "chọn thời gian giặt",
+      "minus-time": "Giảm thời gian",
+      "plus-time": "Tăng thời gian",
+      "desc3": "Thời gian giặt"
+    }
+  },
+  "shoes-dryer": {
+    "step1": {
+      "title": "Cho giày thể thao vào",
+      "desc1": "Hãy cho giày thể thao vào máy"
+    },
+    "step2": {
+      "title": "Chọn máy sấy",
+      "select": "Số %{number}",
+      "desc1": "Hãy",
+      "desc2": "chọn số ",
+      "desc3": "máy sấy mong muốn"
+    },
+    "step3": {
+      "title": "Chọn chương trình",
+      "desc1": "Hãy ",
+      "desc2": "chọn thời gian sấy",
+      "minus-time": "Giảm thời gian",
+      "plus-time": "Tăng thời gian",
+      "desc3": "Thời gian sấy"
+    }
+  },
+  "dryer": {
+    "step1": {
+      "title": "Cho đồ vào",
+      "desc1": "Hãy cho đồ cần sấy vào máy"
+    },
+    "step2": {
+      "title": "Chọn máy sấy",
+      "select": "Số %{number}",
+      "desc1": "Hãy",
+      "desc2": "chọn số ",
+      "desc3": "máy sấy mong muốn"
+    },
+    "step3": {
+      "title": "Chọn chương trình",
+      "desc1": "Hãy ",
+      "desc2": "chọn thời gian sáy",
+      "minus-time": "Giảm thời gian",
+      "plus-time": "Tăng thời gian",
+      "desc3": "Thời gian sấy"
+    },
+    "step4": {
+      "title": "Chọn sản phẩm",
+      "desc1": "Bounce",
+      "desc2": "Bạn có đồng ý mua không?",
+      "desc3": "Giấy sấy thơm Bounce : xả vải dành cho máy sấy",
+      "minus": "Tăng",
+      "plus": "Giảm"
+    }
+  },
+  "airconditioner": {
+    "step1": {
+      "title": "Chọn chương trình",
+      "desc1": "Hãy",
+      "desc2": "chọn thời gian cho điều hòa",
+      "minus-time": "Giảm thời gian",
+      "plus-time": "Tăng thời gian",
+      "desc3": "Thời gian điều hòa"
+    }
+  },
+  "register": {
+    "phone": {
+      "title": "Đăng ký thành viên",
+      "desc1": "Hãy nhập ",
+      "desc2": "số điện thoại"
+    },
+    "password": {
+      "title": "Đăng ký thành viên",
+      "desc1": "Hãy nhập",
+      "desc2": "mật khẩu 4 chữ số",
+      "desc3": "",
+      "fail": "Đăng ký thành viên không thành công.",
+      "already": "Tài khoản đã tồn tại"
+    }
+  },
+  "login": {
+    "phone": {
+      "title": "Thành viên",
+      "desc1": "Hãy nhập",
+      "desc2": "số điện thoại thành viên ",
+      "desc3": "đã đăng ký" 
+    },
+    "password": {
+      "title": "Thành viên",
+      "desc1": "Hãy nhập",
+      "desc2": "mật khẩu 4 chữ số ",
+      "desc3": "để đăng nhập",
+      "nouser": "Thông tin thành viên không đúng."
+    }
+  }
+}

@@ -1,0 +1,37 @@
+[2019-11-21 15:49:20,483] {main.py:332} INFO - POST /server: {'method': 'POST', 'path': '/login', 'args': {'tel': '01000000000', 'pwd': '0000'}}
+[2019-11-21 15:49:20,628] {main.py:351} INFO - {"point":500,"money":0,"pwd":"0000","id":1}
+[2019-11-27 12:38:34,235] {main.py:293} INFO - GET /init:
+[2019-11-27 12:38:34,433] {main.py:205} INFO - GET /build
+[2019-11-27 12:38:45,707] {main.py:332} INFO - POST /server: {'method': 'POST', 'path': '/login', 'args': {'tel': '01000000000', 'pwd': '0000'}}
+[2019-11-27 12:38:45,900] {main.py:351} INFO - {"point":500,"money":0,"pwd":"0000","id":1}
+[2019-11-27 14:35:13,686] {main.py:293} INFO - GET /init:
+[2019-11-27 14:35:13,708] {main.py:205} INFO - GET /build
+[2019-11-29 14:57:37,940] {main.py:293} INFO - GET /init:
+[2019-11-29 14:57:37,962] {main.py:205} INFO - GET /build
+[2019-12-30 13:45:15,919] {main.py:293} INFO - GET /init:
+[2019-12-30 13:45:15,940] {main.py:205} INFO - GET /build
+[2019-12-30 13:45:25,552] {main.py:332} INFO - POST /server: {'method': 'POST', 'path': '/login', 'args': {'tel': '01000000000', 'pwd': '0000'}}
+[2019-12-30 13:45:25,771] {main.py:351} INFO - {"point":500,"money":0,"pwd":"0000","id":1}
+[2019-12-30 13:45:46,823] {main.py:161} INFO - POST /cash/call: None
+[2019-12-30 13:45:46,825] {main.py:167} ERROR - GET /cash/call 400: cannot open cash board
+[2019-12-30 14:34:18,970] {main.py:293} INFO - GET /init:
+[2019-12-30 14:34:18,993] {main.py:205} INFO - GET /build
+[2019-12-30 14:49:33,701] {main.py:293} INFO - GET /init:
+[2019-12-30 14:49:33,731] {main.py:205} INFO - GET /build
+[2019-12-30 14:49:40,549] {main.py:332} INFO - POST /server: {'method': 'POST', 'path': '/login', 'args': {'tel': '01000000000', 'pwd': '0000'}}
+[2019-12-30 14:49:40,612] {main.py:351} INFO - {"point":500,"money":0,"pwd":"0000","id":1}
+[2019-12-30 14:50:40,014] {main.py:293} INFO - GET /init:
+[2019-12-30 14:50:40,031] {main.py:205} INFO - GET /build
+[2019-12-30 14:51:03,144] {main.py:332} INFO - POST /server: {'method': 'POST', 'path': '/login', 'args': {'tel': '01000000000', 'pwd': '0000'}}
+[2019-12-30 14:51:03,217] {main.py:351} INFO - {"point":500,"money":0,"pwd":"0000","id":1}
+[2019-12-30 14:52:00,440] {main.py:332} INFO - POST /server: {'method': 'POST', 'path': '/login', 'args': {'tel': '01000000000', 'pwd': '0000'}}
+[2019-12-30 14:52:00,514] {main.py:351} INFO - {"point":500,"money":0,"pwd":"0000","id":1}
+[2019-12-30 14:52:09,478] {main.py:332} INFO - POST /server: {'method': 'POST', 'path': '/login', 'args': {'tel': '01000000000', 'pwd': '0000'}}
+[2019-12-30 14:52:09,540] {main.py:351} INFO - {"point":500,"money":0,"pwd":"0000","id":1}
+[2019-12-30 14:52:53,253] {main.py:332} INFO - POST /server: {'method': 'POST', 'path': '/login', 'args': {'tel': '01000000000', 'pwd': '0000'}}
+[2019-12-30 14:52:53,349] {main.py:351} INFO - {"point":500,"money":0,"pwd":"0000","id":1}
+[2019-12-30 14:53:20,816] {main.py:293} INFO - GET /init:
+[2019-12-30 14:53:20,829] {main.py:205} INFO - GET /build
+[2019-12-30 14:53:28,871] {main.py:332} INFO - POST /server: {'method': 'POST', 'path': '/login', 'args': {'tel': '01000000000', 'pwd': '0000'}}
+[2019-12-30 14:53:28,940] {main.py:351} INFO - {"point":500,"money":0,"pwd":"0000","id":1}
+[2019-12-30 14:53:41,709] {main.py:332} INFO - POST /server: {'method': 'GET', 'path': '/payment-member/1'}

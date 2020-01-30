@@ -1,0 +1,33 @@
+{
+  "server": {
+    "url": "http://127.0.0.1:8000"
+  },
+  "kiosk": {
+    "coin_dev": "COM8",
+    "cash_dev": "COM7",
+    "card_dev": "COM6"
+  },
+  "agency": {
+    "kid": "A5800",
+    "seckey": "db2ad8fb7b38d5779a00d2948bd188076544a229",
+    "cardkey": "0000000000"
+  },
+  "devices": {
+    "washer": [
+      1,
+      2,
+      3
+    ],
+    "dryer": [
+      4,
+      5,
+      6
+    ],
+    "airconditioner": [
+      12
+    ],
+    "supplies": [
+      11
+    ]
+  }
+}

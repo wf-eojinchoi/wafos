@@ -1,0 +1,77 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\NEWDATE\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js dev
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Java\jdk1.8.0_221\bin;C:\xampp\mysql\bin\;C:\Users\NEWDATE\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\NEWDATE\AppData\Local\Programs\Python\Python37\;C:\Users\NEWDATE\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\NEWDATE\AppData\Local\Programs\Python\Python36\;C:\Users\NEWDATE\AppData\Local\Microsoft\WindowsApps;C:\Users\NEWDATE\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\NEWDATE\AppData\Roaming\npm;C:\Users\NEWDATE\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\workspace\wapos\wafos.admin.nuxt\package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at C:\Users\NEWDATE\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\NEWDATE\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:304:30)
+      at C:\Users\NEWDATE\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "wafos",
+    "version": "1.0.0",
+    "description": "WAFOS2-ADMIN",
+    "author": "sunkyu.yun@wisethinking.co.kr",
+    "private": true,
+    "config": {
+      "nuxt": {
+        "host": "192.168.0.15",
+        "port": "3000"
+    },
+    "scripts": {
+      "dev": "nuxt",
+      "build": "nuxt build",
+      "start": "nuxt start",
+      "generate": "nuxt generate"
+    },
+    "dependencies": {
+      "@toast-ui/vue-editor": "^1.0.3",
+      "axios": "^0.18.1",
+      "chartkick": "^2.3.6",
+      "eslint-plugin-vue": "^5.2.2",
+      "josa-js": "0.0.2",
+      "nuxt": "^2.2.0",
+      "vue-animate-number": "^0.4.2",
+      "vue-axios": "^2.1.4",
+      "vue-chartkick": "^0.5.0",
+      "vue-cookie": "^1.1.4",
+      "vue-daum-postcode": "^0.4.0",
+      "vue-simple-calendar": "^4.1.0",
+      "vuetify": "^1.3.6",
+      "vuex": "^3.0.1"
+    },
+    "devDependencies": {
+      "babel-eslint": "^10.0.1",
+      "eslint": "^5.7.0",
+      "eslint-config-standard": "^12.0.0",
+      "eslint-loader": "^2.1.1",
+      "eslint-plugin-html": "^4.0.6",
+      "eslint-plugin-import": "^2.14.0",
+      "eslint-plugin-node": "^7.0.1",
+      "eslint-plugin-promise": "^4.0.1",
+      "eslint-plugin-standard": "^4.0.0",
+      "stylus": "^0.54.5",
+      "stylus-loader": "^3.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

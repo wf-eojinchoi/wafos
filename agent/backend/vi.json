@@ -1,0 +1,262 @@
+{
+  "app": {
+    "money-unit": "dong",
+    "point-unit": "Điểm",
+    "minute": "phút",
+    "second": "giây",
+    "have": "sở hữu",
+    "guest": "không phải hội viên",
+    "close": "đóng",
+    "confirm": "sự xác nhận",
+    "next": "tiếp theo",
+    "prev": "quay lại",
+    "back": "quay lại",
+    "buy": "mua",
+    "use": "việc sử dụng",
+    "dont-use": "không sử dụng",
+    "point": "điểm",
+    "saved-money": "tiền tích lũy",
+    "unit": "số cái",
+    "bounce": "Tung lên",
+    "do-save": "Tiết kiệm",
+    "usage": "Nội dung sử dụng",
+    "washer": "Máy giặt",
+    "dryer": "Máy sấy",
+    "air-dresser": "Máy giặt sấy khô",
+    "shoes-dryer": "Máy sấy giầy thể thao",
+    "shoes-washer": "Máy giặt giầy thể thao",
+    "air-conditioner": "Máy điều hòa hai chiều",
+    "supplies": "Đồ dùng cho máy giặt",
+    "save": "Tiết kiệm",
+    "cash": "Thanh toán tiền mặt",
+    "card": "Thanh toán thẻ",
+    "use-cash": "Thanh toán tiền mặt",
+    "saved-point": "Tích điểm",
+    "history-service": "서비스",
+    "history-payment": "결제",
+    "history-save-cash": "현금적립",
+    "history-use-cash": "현금사용",
+    "history-save-point": "포인트부여",
+    "history-use-point": "포인트사용",
+    "history-balance-cash": "현금잔액",
+    "history-balance-point": "포인트잔액",
+    "history-when": "일시"
+  },
+  "home": {
+    "header": "dịch vụ tự giặt số 1 trong  khu vực của chúng tôi",
+    "title1": "Xin mời vào",
+    "title2": "cảm thấy ấm áp cả ngày",
+    "title3": "dịch vụ tự giặt 24 giờ WashHoldings",
+    "title4": "Chào mừng bạn đến” với",
+    "btn1": "thành viên",
+    "btn2": "không phải thành viên",
+    "btn3": "đăng ký thành viên",
+    "btn4": "lợi ích đặc biệt của thành viên",
+    "btn5": "quay lại"
+  },
+  "init": {
+    "complete": "Đã được thiết lập, Nhấn Ctrl + W Và khởi động lại",
+    "noentry": "Không tìm thấy thông tin phù hợp"
+  },
+  "build": {
+    "error": "Có lỗi trong hệ thống, Sẽ tự động thử lại sau 5 giây"
+  },
+  "menu": {
+    "washer": "giặt ủi",
+    "dryer": "khô",
+    "shoes-washer": "giặt giày thể thao",
+    "shoes-dryer": "khô giày thể thao",
+    "airdresser": "AIR DRESSER",
+    "supplies": "đô dùng máy giặt",
+    "airconditioner": "máy giặt khô",
+    "home": "Đăng xuất",
+    "autologout":"Đăng xuất tự động"
+  },
+  "payment": {
+    "washer": "giặt",
+    "dryer": "khô",
+    "shoes-washer": "giặt giày thể thao",
+    "shoes-dryer": "khô giày thể thao",
+    "airdresser": "AIR DRESSER",
+    "styler": "STYLER",
+    "supplies": "đô dùng máy giặt",
+    "airconditioner": "máy giặt khô",
+    "desc1-1": "số %{number} trong máy giặt",
+    "desc2-1": "Bạn có muốn bắt đầu giặt?",
+    "desc2-2": "Bạn có muốn bắt đầu khô?",
+    "desc2-3": "có muốn mua không?",
+    "desc3": "có muốn sử dụng nó không?",
+    "desc4": "Điểm số ít hơn %{number} điểm",
+    "desc5": "Vui lòng chọn một số tiền thanh toán",
+    "way": "Vui lòng chọn phương thức thanh toán",
+    "card": "Thanh toán thẻ",
+    "cash": "Thanh toán tiền mặt",
+    "product-price": "Số lượng vật phẩm",
+    "use-price": "Số lượng sử dụng",
+    "use": "việc sử dụng",
+    "payment-price": "Số tiền thanh toán",
+    "insert-money": "Số tiền đầu tư",
+    "total-saved-money": "Tổng số tiền",
+    "limit-time": "Hết giờ",
+    "cant-save": "(Không phải thành viên không thể kiếm được)",
+    "close": "Cửa tự động đóng lại",
+    "failure": "Thanh toán bị từ chối",
+    "payment-result": "Completed the save of %{number} won",
+    "success": "Thanh toán thành công",
+    "card-warning": "không rút thẻ cho đến khi bạn nhận được giọng nói được chấp thuận",
+    "pending": "Trong quá trình thanh toán, bạn không thể đi tiếp",
+    "cash-warning": "Chèn tiền mặt",
+    "alert-retry": "Lỗi xảy ra tạm thời. Vui lòng thử lại sau vài phút"
+  },
+  "washer": {
+    "step1": {
+      "title": "cho quần áo vào máy giặt",
+      "desc": "cho quần áo vào máy giặt"
+    },
+    "step2": {
+      "title": "đóng máy giặt",
+      "desc": "vui lòng đóng cửa máy giặt"
+    },
+    "step3": {
+      "title": "lựa chọn máy giặt",
+      "select": "Số %{number}",
+      "desc1": "Số mong muốn",
+      "desc2": "lựa chọn máy giặt",
+      "desc3": "Vui lòng"
+    },
+    "step4": {
+      "title": "chọn tua",
+      "select": "Số %{number}",
+      "desc1": "chọn máy giặt",
+      "desc2": "Số mong muốn",
+      "desc3": "vui lòng chọn",
+      "desc4": "Vui lòng"
+    }
+  },
+  "supplies": {
+    "step1": {
+      "title": "đô dùng máy giặt",
+      "desc1": "muốn",
+      "desc2": "chọn đô dùng máy giặt",
+      "desc3": "Vui lòng"
+    }
+  },
+  "airdresser": {
+    "step1": {
+      "title": "lựa chọn",
+      "desc1": "vui lòng chọn 'AIR DRESSER'",
+      "desc2": "vui lòng"
+    }
+  },
+  "shoes-washer": {
+    "step1": {
+      "title": "cho giày dép vào máy giặt",
+      "desc1": "cho giày dép vào máy giặt"
+    },
+    "step2": {
+      "title": "lựa chọn máy giặt",
+      "select": "Số %{number}",
+      "desc1": "Số mong muốn",
+      "desc2": "lựa chọn máy giặt",
+      "desc3": "vui lòng."
+    },
+    "step3": {
+      "title": "chọn tua",
+      "desc1": "chọn thời gian cho giặt",
+      "desc2": "vui lòng",
+      "minus-time": "thời gian –",
+      "plus-time": "thời gian +",
+      "desc3": "thời gian cho giặt"
+    }
+  },
+  "shoes-dryer": {
+    "step1": {
+      "title": "cho giày dép vào máy giặt",
+      "desc1": "vui lòng cho giày dép vào máy giặt"
+    },
+    "step2": {
+      "title": "lựa chọn máy khô",
+      "select": "Số %{number}",
+      "desc1": "Số mong muốn",
+      "desc2": "lựa chọn máy khô",
+      "desc3": "vui lòng"
+    },
+    "step3": {
+      "title": "chọn tua",
+      "desc1": "chọn thời gian cho khô",
+      "desc2": "vui lòng",
+      "minus-time": "thời gian –",
+      "plus-time": "thời gian +",
+      "desc3": "thời gian cho khô"
+    }
+  },
+  "dryer": {
+    "step1": {
+      "title": "cho quần áo vào máy giặt",
+      "desc1": "vui lòng cho quần áo vào máy giặt"
+    },
+    "step2": {
+      "title": "lựa chọn máy khô",
+      "select": "Số %{number}",
+      "desc1": "Số mong muốn",
+      "desc2": "lựa chọn máy khô",
+      "desc3": "vui lòng"
+    },
+    "step3": {
+      "title": "chọn tua",
+      "desc1": "chọn thời gian cho khô",
+      "desc2": "vui lòng",
+      "minus-time": "thời gian –",
+      "plus-time": "thời gian +",
+      "desc3": "thời gian cho khô"
+    },
+    "step4": {
+      "title": "chọn đô dùng",
+      "desc1": "Tung lên",
+      "desc2": "có muốn mua không?",
+      "desc3": "Tung lên: fabric softener for dryrer",
+      "minus": "sự giảm bớt",
+      "plus": "sự gia tang"
+    }
+  },
+  "airconditioner": {
+    "step1": {
+      "title": "chọn tua",
+      "desc1": "chọn thời gian làm lạnh phòng",
+      "desc2": "vui lòng",
+      "minus-time": "thời gian –",
+      "plus-time": "thời gian +",
+      "desc3": "thời gian làm lạnh phòng"
+    }
+  },
+  "register": {
+    "phone": {
+      "title": "đăng ký thành viên",
+      "desc1": "số điện thoại",
+      "desc2": "Vui lòng nhập"
+    },
+    "password": {
+      "title": "đăng ký thành viên",
+      "desc1": "của",
+      "desc2": "Mật khẩu 4 chữ số",
+      "desc3": "Vui lòng nhập",
+      "fail": "Thành viên thất bại.",
+      "already": "Bạn đã là thành viên"
+    }
+  },
+  "login": {
+    "phone": {
+      "title": "thành viên",
+      "desc1": "Đã đăng ký",
+      "desc2": "Số  điện thoại thành viên",
+      "desc3": "Vui lòng nhập"
+    },
+    "password": {
+      "title": "thành viên",
+      "desc1": "Đăng nhập.",
+      "desc2": "Mật khẩu 4 chữ số",
+      "desc3": "Vui lòng nhập",
+      "nouser": "Không có thông tin thành viên có sẵn."
+    }
+  }
+}

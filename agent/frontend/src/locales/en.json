@@ -1,0 +1,271 @@
+{
+  "app": {
+    "money-unit": "Won",
+    "point-unit": "Point",
+    "minute": "Min",
+    "second": "Sec",
+    "have": "Have",
+    "guest": "Guest",
+    "close": "Close",
+    "confirm": "Confirm",
+    "next": "Next",
+    "prev": "Prev",
+    "back": "Back",
+    "buy": "Buy",
+    "use": "Use",
+    "dont-use": "Don't use",
+    "point": "Point",
+    "saved-money": "Saved money",
+    "unit": "ea",
+    "bounce": "bounce",
+    "do-save": "deposit",
+    "usage": "usage",
+    "washer": "washer",
+    "dryer": "dryer",
+    "air-dresser": "air-dresser",
+    "shoes-dryer": "dryer",
+    "shoes-washer": "shoes-washer",
+    "air-conditioner": "air-conditioner",
+    "supplies": "supplies",
+    "save": "save",
+    "cash": "cash",
+    "card": "credit card",
+    "use-cash": "use-cash",
+    "saved-point": "saved-point",
+    "history-service": "서비스",
+    "history-payment": "결제",
+    "history-save-cash": "현금적립",
+    "history-use-cash": "현금사용",
+    "history-save-point": "포인트부여",
+    "history-use-point": "포인트사용",
+    "history-balance-cash": "현금잔액",
+    "history-balance-point": "포인트잔액",
+    "history-when": "일시"
+  },
+  "home": {
+    "header": "NO.1 Self-laundry service",
+    "title1": "",
+    "title2": "Feels soft and comforting all day",
+    "title3": "Welcome to ",
+    "title4": "the 24-hour self-laundry service WashHoldings.",
+    "btn1": "Membership",
+    "btn2": "Guest",
+    "btn3": "Sign up",
+    "btn4": "Special benefits",
+    "btn5": "Back"
+  },
+  "init": {
+    "complete": "Configured. Press Ctrl+W to restart",
+    "noentry": "No entry matched"
+  },
+  "build": {
+    "error": "Problems occurs. Will try again in 5 seconds automatically"
+  },
+  "menu": {
+    "washer": "Laundry",
+    "dryer": "Drying",
+    "shoes-washer": "Shoes Laundry",
+    "shoes-dryer": "Shoes Drying",
+    "airdresser": "Styler",
+    "supplies": "Laundry supplies",
+    "airconditioner": "Air-condinting service",
+    "home": "Logout",
+    "autologout":"Auto Logout"
+  },
+  "payment": {
+    "washer": "Laundry",
+    "dryer": "Drying",
+    "shoes-washer": "Shoes Laundry",
+    "shoes-dryer": "Shoes Drying",
+    "airdresser": "Styler",
+    "styler": "Styler",
+    "supplies": "Laundry supplies",
+    "airconditioner": "Drying service",
+    "desc1-1": "At %{number} laundry,",
+    "desc2-1": "Do you want to wash?",
+    "desc2-2": "Do you want to dry?",
+    "desc2-3": "Do you want to buy/continue?",
+    "desc3": "Do you want to use it?",
+    "desc4": "Your point is below %{number} points",
+    "desc5": "How much will you pay?",
+    "way": "Choose the payment method",
+    "card": "Credit card",
+    "cash": "Cash",
+    "product-price": "Product price",
+    "use-price": "price",
+    "use": "use",
+    "payment-price": "payment money",
+    "insert-money": "Inserted",
+    "total-saved-money": "Total use/saved money",
+    "limit-time": "Limit time",
+    "cant-save": "(Guest is not allowed to save money)",
+    "close": "This window will be closed automatically",
+    "failure": "Payment was failed",
+    "payment-result": "Completed the save of %{number} won",
+    "success": "Payment succeeded",
+    "card-warning": "Do not pull the credit card before being completed",
+    "pending": "Please remain on the same screen during payment processing",
+    "cash-warning": "Insert cash",
+    "alert-retry": "Error occurs temporarily. Please try again in a few minutes",
+    "washser-success": "Payment has been made. Please select a course from your chosen washing machine and press the start button.",
+    "dryer-success": "Payment has been made. Please Check the temperature of the selected dryer and press the start button.",
+    "shoes-washer-success":"Payment has been made. Please press the start button on the shoes washer.",
+    "shoes-dryer-success":"Payment has been made. Please press the start button on the shoes dryer.",
+    "air-success":"Payment has been made. It will automatically operate for the selected time.",
+    "styler-success":"Payment has been made. Please Press the start button on the styler.",
+    "supply-success":"Payment has been made. Please press the button of the selected product on the multi-vending machine to receive the product.",
+    "cant-payment":"Please check your balance.",
+    "no-payment":"Insufficient balance."
+  },
+  "washer": {
+    "step1": {
+      "title": "Put the clothes",
+      "desc": "Please put your laundry in"
+    },
+    "step2": {
+      "title": "Close the washing machine",
+      "desc": "Please close the washing machine door"
+    },
+    "step3": {
+      "title": "Select a washing machine",
+      "select": "%{number}",
+      "desc1": "Please select",
+      "desc2": "the washing",
+      "desc3": " machine number"
+    },
+    "step4": {
+      "title": "Select a course",
+      "select": "%{number}",
+      "desc1": "Selected washing machine",
+      "desc2": "Please select",
+      "desc3": "the laundry",
+      "desc4": " course"
+    }
+  },
+  "supplies": {
+    "step1": {
+      "title": "Laundry supplies",
+      "desc1": "Please select",
+      "desc2": "the laundry",
+      "desc3": "supplies"
+    }
+  },
+  "airdresser": {
+    "step1": {
+      "title": "Select a course",
+      "desc1": "Please select",
+      "desc2": "the styler course"
+    }
+  },
+  "shoes-washer": {
+    "step1": {
+      "title": "Put the shoes",
+      "desc1": "Please put your shoes in"
+    },
+    "step2": {
+      "title": "Select a shoes washing machine",
+      "select": "%{number}",
+      "desc1": "Please select",
+      "desc2": "the shoes washing",
+      "desc3": "machine number"
+    },
+    "step3": {
+      "title": "Select a course",
+      "desc1": "Please set",
+      "desc2": "the washing time",
+      "minus-time": "Decrease",
+      "plus-time": "Increase",
+      "desc3": "Washing time"
+    }
+  },
+  "shoes-dryer": {
+    "step1": {
+      "title": "Put the shoes",
+      "desc1": "Please put your shoes in"
+    },
+    "step2": {
+      "title": "Select a shoes drying machine",
+      "select": "%{number}",
+      "desc1": "Please select",
+      "desc2": "the shoes drying",
+      "desc3": "machine number"
+    },
+    "step3": {
+      "title": "Select a course",
+      "desc1": "Please set",
+      "desc2": "the drying time",
+      "minus-time": "Decrease",
+      "plus-time": "Increase",
+      "desc3": "Drying time"
+    }
+  },
+  "dryer": {
+    "step1": {
+      "title": "Put the clothes",
+      "desc1": "Please put your laundry in"
+    },
+    "step2": {
+      "title": "Select a drying machine",
+      "select": "%{number}",
+      "desc1": "Please select",
+      "desc2": "the drying",
+      "desc3": " machine number"
+    },
+    "step3": {
+      "title": "Select a course",
+      "desc1": "Please set",
+      "desc2": " the drying time",
+      "minus-time": "Decrease",
+      "plus-time": "Increase",
+      "desc3": "Drying time"
+    },
+    "step4": {
+      "title": "Select supplies",
+      "desc1": "Do you want",
+      "desc2": "Bounces",
+      "desc3": "Bounce: fabric softener for dryrer",
+      "minus": "Decrease",
+      "plus": "Increase"
+    }
+  },
+  "airconditioner": {
+    "step1": {
+      "title": "Select a course",
+      "desc1": "Please set",
+      "desc2": "the time.",
+      "minus-time": "Decrease",
+      "plus-time": "Increase",
+      "desc3": "Time"
+    }
+  },
+  "register": {
+    "phone": {
+      "title": "Sign up",
+      "desc1": "Please put",
+      "desc2": "your mobile phone number"
+    },
+    "password": {
+      "title": "Sign up",
+      "desc1": " ",
+      "desc2": "Please put",
+      "desc3": " the 4 digits as password",
+      "fail": "Failed to sign up",
+      "already": "You're already signed"
+    }
+  },
+  "login": {
+    "phone": {
+      "title": "Membership",
+      "desc1": "Please put",
+      "desc2": " your mobile phone numbrer",
+      "desc3": " registered"
+    },
+    "password": {
+      "title": "Membership",
+      "desc1": " ",
+      "desc2": "Please put",
+      "desc3": " the 4 digits as password",
+      "nouser": "No user matched"
+    }
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "app": {
+    "money-unit": "원",
+    "point-unit": "점",
+    "minute": "분",
+    "second": "초",
+    "have": "보유",
+    "guest": "비회원",
+    "close": "닫기",
+    "confirm": "확인",
+    "next": "다음으로",
+    "prev": "이전으로",
+    "back": "돌아가기",
+    "buy": "구매하기",
+    "use": "사용하기",
+    "dont-use": "사용하지않기",
+    "point": "포인트",
+    "saved-money": "적립금",
+    "unit": "개",
+    "bounce": "바운스",
+    "do-save": "적립하기",
+    "usage": "사용내역",
+    "washer": "세탁기",
+    "dryer": "건조기",
+    "air-dresser": "에어드레서",
+    "shoes-dryer": "운동화건조기",
+    "shoes-washer": "운동화세탁기",
+    "air-conditioner": "냉난방",
+    "supplies": "세탁용품",
+    "save": "적립",
+    "cash": "현금결제",
+    "card": "카드결제",
+    "use-cash": "적립금사용",
+    "saved-point": "포인트적립",
+    "history-service": "서비스",
+    "history-payment": "결제",
+    "history-save-cash": "현금적립",
+    "history-use-cash": "현금사용",
+    "history-save-point": "포인트부여",
+    "history-use-point": "포인트사용",
+    "history-balance-cash": "현금잔액",
+    "history-balance-point": "포인트잔액",
+    "history-when": "일시"
+  },
+  "home": {
+    "header": "우리동네 NO.1 셀프빨래방",
+    "title1": "어서오세요",
+    "title2": "하루종일 포근한 느낌 그대로",
+    "title3": "24시간 셀프빨래방 워시프렌즈",
+    "title4": "에 오신것을 환영합니다.",
+    "btn1": "회원 이용하기",
+    "btn2": "비회원 이용하기",
+    "btn3": "회원 가입하기",
+    "btn4": "회원 혜택보기",
+    "btn5": "돌아가기"
+  },
+  "init": {
+    "complete": "설정되었습니다. Ctrl+W를 눌러, 재시작하세요",
+    "noentry": "일치하는 정보가 없습니다"
+  },
+  "build": {
+    "error": "시스템에 장애가 있습니다. 관리자에게 문의하세요"
+  },
+  "menu": {
+    "washer": "세탁하기",
+    "dryer": "건조하기",
+    "shoes-washer": "운동화 세탁",
+    "shoes-dryer": "운동화 건조",
+    "airdresser": "에어드레서",
+    "supplies": "세탁용품",
+    "airconditioner": "냉난방기",
+    "home": "처음으로"
+  },
+  "payment": {
+    "washer": "세탁",
+    "dryer": "건조",
+    "shoes-washer": "운동화 세탁",
+    "shoes-dryer": "운동화 건조",
+    "airdresser": "에어드레서",
+    "styler": "에어드레서",
+    "supplies": "세탁용품",
+    "airconditioner": "냉난방기",
+    "desc1-1": "%{number}번 세탁기에서",
+    "desc2-1": "세탁을 진행하시겠습니까?",
+    "desc2-2": "건조를 진행하시겠습니까?",
+    "desc2-3": "진행(구매)하시겠습니까?",
+    "desc3": "을 사용하시겠습니까?",
+    "desc4": "포인트가 %{number}점 이하입니다",
+    "desc5": "결제금액을 선택하세요",
+    "way": "결제방법을 선택하세요",
+    "card": "카드결제",
+    "cash": "현금결제",
+    "product-price": "상품금액",
+    "use-price": "이용금액",
+    "use": "사용",
+    "payment-price": "결제금액",
+    "insert-money": "투입금액",
+    "total-saved-money": "총 적립 금액",
+    "limit-time": "제한시간",
+    "cant-save": "(비회원은 적립이 불가능합니다)",
+    "close": "이 창은 자동으로 닫힙니다",
+    "failure": "결제 실패",
+    "payment-result": "투입하신 금액 %{number}원 적립되었습니다",
+    "success": "결제 성공",
+    "card-warning": "승인 완료 음성이 나올 때까지 카드를 뽑지 마세요",
+    "pending": "결제중에는 이동할 수 없습니다",
+    "cash-warning": "현금을 투입해주세요"
+  },
+  "washer": {
+    "step1": {
+      "title": "세탁물 넣기",
+      "desc": "세탁물을 넣어주세요"
+    },
+    "step2": {
+      "title": "세탁물 닫기",
+      "desc": "세탁기 문을 닫아주세요"
+    },
+    "step3": {
+      "title": "세탁기 선택",
+      "select": "%{number}번",
+      "desc1": "원하는 번호의",
+      "desc2": "세탁기를 선택",
+      "desc3": "해주세요."
+    },
+    "step4": {
+      "title": "코스 선택",
+      "select": "%{number}번",
+      "desc1": "선택된 세탁기",
+      "desc2": "원하는 번호의",
+      "desc3": "세탁 코스를 선택",
+      "desc4": "해주세요."
+    }
+  },
+  "supplies": {
+    "step1": {
+      "title": "세탁용품",
+      "desc1": "원하는",
+      "desc2": "세탁용품을 선택",
+      "desc3": "해주세요."
+    }
+  },
+  "airdresser": {
+    "step1": {
+      "title": "코스 선택",
+      "desc1": "에어드레서 코스를 선택",
+      "desc2": "해주세요."
+    }
+  },
+  "shoes-washer": {
+    "step1": {
+      "title": "운동화 넣기",
+      "desc1": "운동화를 넣어주세요"
+    },
+    "step2": {
+      "title": "세탁기 선택",
+      "select": "%{number}번",
+      "desc1": "원하는 번호의",
+      "desc2": "세탁기를 선택",
+      "desc3": "해주세요."
+    },
+    "step3": {
+      "title": "코스 선택",
+      "desc1": "세탁 시간을 선택",
+      "desc2": "해주세요.",
+      "minus-time": "시간 감소",
+      "plus-time": "시간 증가",
+      "desc3": "세탁시간"
+    }
+  },
+  "shoes-dryer": {
+    "step1": {
+      "title": "운동화 넣기",
+      "desc1": "운동화를 넣어주세요"
+    },
+    "step2": {
+      "title": "건조기 선택",
+      "select": "%{number}번",
+      "desc1": "원하는 번호의",
+      "desc2": "건조기를 선택",
+      "desc3": "해주세요."
+    },
+    "step3": {
+      "title": "코스 선택",
+      "desc1": "건조 시간을 선택",
+      "desc2": "해주세요.",
+      "minus-time": "시간 감소",
+      "plus-time": "시간 증가",
+      "desc3": "건조시간"
+    }
+  },
+  "dryer": {
+    "step1": {
+      "title": "세탁물 넣기",
+      "desc1": "세탁물을 넣어주세요"
+    },
+    "step2": {
+      "title": "건조기 선택",
+      "select": "%{number}번",
+      "desc1": "원하는 번호의",
+      "desc2": "건조기를 선택",
+      "desc3": "해주세요."
+    },
+    "step3": {
+      "title": "코스 선택",
+      "desc1": "건조 시간을 선택",
+      "desc2": "해주세요.",
+      "minus-time": "시간 감소",
+      "plus-time": "시간 증가",
+      "desc3": "건조시간"
+    },
+    "step4": {
+      "title": "용품 선택",
+      "desc1": "바운스",
+      "desc2": "를 구매하시겠습니까?",
+      "desc3": "바운스: 건조기용 섬유유연제",
+      "minus": "감소",
+      "plus": "증가"
+    }
+  },
+  "airconditioner": {
+    "step1": {
+      "title": "코스 선택",
+      "desc1": "냉난방시간을 선택",
+      "desc2": "해주세요.",
+      "minus-time": "시간 감소",
+      "plus-time": "시간 증가",
+      "desc3": "냉난방시간"
+    }
+  },
+  "register": {
+    "phone": {
+      "title": "회원 가입하기",
+      "desc1": "휴대폰 번호",
+      "desc2": "를 입력해주세요"
+    },
+    "password": {
+      "title": "회원 가입하기",
+      "desc1": "의",
+      "desc2": "비밀번호 네자리",
+      "desc3": "를 입력해주세요",
+      "fail": "회원가입에 실패했습니다",
+      "already": "이미 가입한 회원입니다"
+    }
+  },
+  "login": {
+    "phone": {
+      "title": "회원 이용하기",
+      "desc1": "등록된",
+      "desc2": "회원 전화번호",
+      "desc3": "를 입력해주세요"
+    },
+    "password": {
+      "title": "회원 이용하기",
+      "desc1": "로 로그인합니다",
+      "desc2": "비밀번호 네자리",
+      "desc3": "를 입력해주세요",
+      "nouser": "일치하는 회원정보가 없습니다."
+    }
+  }
+}
