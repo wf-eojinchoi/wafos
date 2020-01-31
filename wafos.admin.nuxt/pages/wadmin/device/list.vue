@@ -12,6 +12,11 @@
                     </td>
                     <td >
                       <v-layout row>
+                        <v-select
+                          :items="classifyTypes"
+                          v-model="classifyTypesVal"
+                          label="타입"
+                        ></v-select>
                         <v-flex text-xs-right pt-1>
                           <v-btn color="primary" @click="addDevice()">장비 추가</v-btn>
                         </v-flex>
@@ -27,7 +32,7 @@
             :headers="headers"
             :items="items"
             :pagination.sync="pagination"
-            :rows-per-page-items="[10,{'text':'All','value':-1}]"
+            :rows-per-page-items="[20,{'text':'All','value':-1}]"
             :total-items="totalitems"
             :loading="loading"
             no-data-text="등록된 데이터가 없습니다"
@@ -291,10 +296,16 @@ export default {
     reloadDatas () {
       console.log(this.selTypes)
       this.loading = true
-      this.$store.dispatch('DeviceList')
+      this.$store.dispatch('DeviceList',{
+        page: this.pagination.page,
+        sortby : this.pagination.sortBy,
+        descending : this.pagination.descending,
+        type : this.classifyTypesVal
+      })
         .then((result) => {
           this.loading = false
           this.items = result.results
+          this.totalitems = result.count//추가
           console.log(result)
         })
         .catch((result) => {
@@ -441,7 +452,7 @@ export default {
   watch: {
     pagination: {
       handler () {
-        // this.reloadDatas()
+        this.reloadDatas()
       },
       deep: true
     },
@@ -455,7 +466,15 @@ export default {
       handler () {
         this.reloadModelDatas(this.selectBrandName)
       }
-    }
+    },
+    classifyTypesVal: {
+      handler () {
+        this.pagination.page = 1
+        this.reloadDatas()
+      },
+      deep: true
+    },
+
   },
   data () {
     return {
@@ -483,6 +502,8 @@ export default {
       totalitems: 0,
       items: [],
       selected: [],
+      classifyTypes:[ '전체', '세탁기', '건조기'],
+      classifyTypesVal: '전체',
       headers: [
         {
           text: '제품이미지',

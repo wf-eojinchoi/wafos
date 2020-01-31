@@ -33,13 +33,20 @@ const actions = {
     }
 
     if (params.sortby) {
-      uri += '?sortby=' + params.sortby
+      uri += '&sortby=' + params.sortby
     }
 
     if (params.descending) {
-      uri += '?descending=' + params.descending
+      uri += '&descending=' + params.descending
     }
 
+    if (params.type === '세탁기') {
+      uri += '&type=0'
+    } else if (params.type === '건조기') {
+      uri += '&type=1'
+    } else {
+    }
+    console.log('uri :', uri)
     return new Promise((resolve, reject) => {
       ApiService.get(uri)
         .then((result) => {

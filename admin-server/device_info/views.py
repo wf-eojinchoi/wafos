@@ -17,8 +17,15 @@ class DeviceList(
     serializer_class = DeviceSerializer
 
     def get_queryset(self, *args, **kwargs):
-        queryset = DeviceInfo.objects.all().order_by('id')
-
+        #1.  
+        #2. 
+        type_ = self.request.query_params.get('type') #타입
+        queryset = None
+        if (type_ is not None) :
+            queryset = DeviceInfo.objects.filter(type=type_).all().order_by('id')
+        else :
+            queryset = DeviceInfo.objects.all().order_by('id')
+        
         return queryset
 
     def get(self, request, *args, **kwargs):
